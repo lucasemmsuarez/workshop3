@@ -1,0 +1,969 @@
+/*monserrat
+font-family: 'Montserrat', sans-serif;
+*/
+.container {
+  max-width: 700px;
+  font-family: 'Montserrat', sans-serif; }
+
+/* HEADER */
+.header .header-nav .logo {
+  display: inline-block;
+  border-right: 1px solid rgba(192, 192, 192, 0.3);
+  padding: 11px 30px 11px 10px; }
+  .header .header-nav .logo img {
+    width: 40px; }
+.header .header-nav ul {
+  float: right;
+  overflow: auto; }
+.header .header-nav .iconos {
+  float: right;
+  display: inline-block;
+  padding-left: 25px;
+  position: relative;
+  top: 12px; }
+  .header .header-nav .iconos .outline {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 3px;
+    background: blue; }
+    .header .header-nav .iconos .outline a {
+      text-decoration: none;
+      color: white; }
+  .header .header-nav .iconos .strong {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 3px;
+    text-decoration: none;
+    background: white; }
+    .header .header-nav .iconos .strong a {
+      text-decoration: none;
+      color: blue; }
+.header .header-nav .menu {
+  float: right;
+  display: inline-block;
+  padding: 18px 40px;
+  border-right: 1px solid rgba(192, 192, 192, 0.3);
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 7px;
+  font-weight: 400; }
+  .header .header-nav .menu li {
+    display: inline-block;
+    margin-left: 20px; }
+    .header .header-nav .menu li a {
+      text-decoration: none;
+      color: white; }
+.header .linea {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(192, 192, 192, 0.3);
+  position: relative;
+  top: -10px; }
+.header .container .titulo {
+  width: 500px;
+  position: relative;
+  padding: 30px 0 0 10px; }
+  .header .container .titulo h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 70px; }
+
+/* HEADER index */
+.header-index {
+  background-image: url("../assets/home/background.jpg");
+  background-size: 100%;
+  width: 100vw;
+  min-height: 100vh; }
+
+/* HELLO */
+.hello {
+  padding: 50px 10px; }
+  .hello img {
+    width: 38%;
+    display: inline-block; }
+  .hello article {
+    display: inline-block;
+    position: absolute;
+    margin-left: 30px;
+    width: 35%; }
+    .hello article h2 {
+      font-size: 14px;
+      font-weight: 400;
+      color: black;
+      padding-bottom: 10px;
+      margin-top: 12px; }
+    .hello article p {
+      font-size: 8px;
+      font-weight: 400;
+      line-height: 2;
+      color: grey;
+      margin: 0;
+      padding-bottom: 15px; }
+    .hello article a {
+      background: blue;
+      font-size: 8px;
+      text-decoration: none;
+      color: white;
+      padding: 9px 20px; }
+
+/* MULTI */
+.multi {
+  background: gainsboro;
+  text-align: center; }
+  .multi .container div div {
+    padding: 45px 10px 45px 10px; }
+    .multi .container div div article {
+      margin: auto;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #3399cc;
+      text-align: center;
+      padding-top: 8px;
+      color: white;
+      font-size: 10px; }
+    .multi .container div div .especial {
+      background: white;
+      border: 4px solid #3399cc;
+      color: #3399cc;
+      padding-top: 5px; }
+    .multi .container div div h3 {
+      font-size: 10px;
+      font-weight: 400;
+      color: black;
+      margin: 25px 0 15px 0; }
+    .multi .container div div p {
+      font-size: 8px;
+      font-weight: 400;
+      line-height: 2;
+      color: grey;
+      margin: 0; }
+
+/* SHOW */
+.show {
+  text-align: center;
+  padding: 50px 10px 40px 10px; }
+  .show h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase; }
+  .show p {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 2;
+    color: grey;
+    margin: 0;
+    margin-top: -5px; }
+  .show div article {
+    margin: 20px 0 0;
+    text-align: left; }
+    .show div article h3 {
+      font-size: 10px;
+      font-weight: 400;
+      color: black;
+      margin: 10px 0 0 0; }
+    .show div article span {
+      font-size: 8px;
+      font-weight: 400;
+      line-height: 2;
+      color: grey;
+      margin: 0;
+      position: relative;
+      left: 185px;
+      top: -10px; }
+    .show div article p {
+      font-size: 8px;
+      font-weight: 400;
+      line-height: 2;
+      color: grey;
+      margin: 0;
+      position: relative;
+      bottom: 20px; }
+
+/* AMAZING */
+.amazing {
+  text-align: center;
+  padding: 50px 10px 0 10px;
+  background: pink;
+  background-size: 100%; }
+  .amazing div h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    color: white; }
+  .amazing div p {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 2;
+    color: grey;
+    margin: 0;
+    margin-top: -5px;
+    color: white; }
+  .amazing div div {
+    margin-top: 25px; }
+    .amazing div div article article h3 {
+      font-size: 10px;
+      font-weight: 400;
+      color: black;
+      display: inline-block;
+      color: white; }
+    .amazing div div article article article {
+      display: inline-block;
+      width: 27px;
+      height: 27px;
+      border-radius: 50%;
+      background: #00bfbf;
+      text-align: center;
+      padding-top: 5px;
+      color: white;
+      font-size: 12px; }
+    .amazing div div article article p {
+      font-size: 8px;
+      font-weight: 400;
+      line-height: 2;
+      color: grey;
+      margin: 0;
+      line-height: 1.8;
+      color: white; }
+    .amazing div div .izquierda {
+      text-align: right;
+      top: 20px; }
+      .amazing div div .izquierda article article {
+        margin: 0 0 9px 9px; }
+    .amazing div div .derecha {
+      text-align: left;
+      top: 20px; }
+      .amazing div div .derecha article article {
+        margin: 0 9px 9px 0; }
+
+/* IMAGENES */
+.imagenes {
+  padding: 70px 10px 70px 10px;
+  background: gainsboro; }
+  .imagenes div div .images {
+    padding: 5px;
+    background: white;
+    border: 1px solid #bbbbbb; }
+    .imagenes div div .images .imggrande {
+      padding-bottom: 5px;
+      border-bottom: 1px solid #bbbbbb; }
+    .imagenes div div .images div img {
+      padding-top: 5px; }
+  .imagenes div div .textos {
+    padding-left: 30px; }
+    .imagenes div div .textos h4 {
+      font-size: 16px;
+      font-weight: 700;
+      color: black;
+      text-transform: uppercase; }
+    .imagenes div div .textos p {
+      font-size: 8px;
+      font-weight: 400;
+      line-height: 2;
+      color: grey;
+      margin: 0;
+      padding-bottom: 5px; }
+    .imagenes div div .textos .sub {
+      margin: -5px 0 -5px 0; }
+    .imagenes div div .textos ul {
+      list-style: none;
+      margin-bottom: 25px; }
+      .imagenes div div .textos ul li {
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 2;
+        color: grey;
+        margin: 0;
+        color: blue;
+        font-size: 10px;
+        font-weight: 400;
+        margin: 0; }
+        .imagenes div div .textos ul li p {
+          font-size: 8px;
+          font-weight: 400;
+          line-height: 2;
+          color: grey;
+          margin: 0;
+          display: inline-block;
+          line-height: 1;
+          margin-left: 7px; }
+    .imagenes div div .textos a {
+      background: blue;
+      font-size: 8px;
+      text-decoration: none;
+      color: white;
+      padding: 9px 20px; }
+
+/* DAVID */
+.david {
+  padding: 60px 10px 20px 10px; }
+  .david div h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    text-align: center; }
+  .david div p {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 2;
+    color: grey;
+    margin: 0;
+    margin: -5px 0 -5px 0;
+    text-align: center; }
+  .david div div {
+    margin: 30px 0 15px 0; }
+    .david div div article {
+      margin: 0; }
+      .david div div article .davides {
+        margin: 0;
+        padding-bottom: 20px; }
+        .david div div article .davides .foto {
+          padding: 0;
+          text-align: center; }
+          .david div div article .davides .foto img {
+            border-radius: 50%; }
+          .david div div article .davides .foto .sociales {
+            text-align: center;
+            position: relative; }
+            .david div div article .davides .foto .sociales li {
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              padding: 4px;
+              margin: 8px 1px;
+              border-radius: 50%;
+              background: #00bfbf;
+              text-align: center;
+              color: white;
+              font-size: 9px; }
+        .david div div article .davides .descripcion h3 {
+          font-size: 10px;
+          font-weight: 400;
+          color: black;
+          margin: 10px 0 0 0; }
+        .david div div article .davides .descripcion h5 {
+          font-size: 7px;
+          font-weight: 400;
+          color: black;
+          text-transform: uppercase;
+          color: blue;
+          margin: 1px 0 7px 0; }
+        .david div div article .davides .descripcion p {
+          font-size: 8px;
+          font-weight: 400;
+          line-height: 2;
+          color: grey;
+          margin: 0;
+          text-align: left;
+          line-height: 1.9;
+          padding-right: 12px; }
+
+/* PREMIUM */
+.premium {
+  background-image: url("../assets/home/wordpress_bg.jpg");
+  background-size: 100%;
+  padding: 70px 10px 40px 10px; }
+  .premium h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase; }
+  .premium p {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 2;
+    color: grey;
+    margin: 0;
+    margin: -5px 0 30px 0; }
+  .premium article {
+    margin-top: 5px; }
+    .premium article span {
+      display: inline-block;
+      position: absolute;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.5);
+      background: #00bfbf;
+      text-align: center;
+      padding-top: 12px;
+      color: white;
+      font-size: 15px;
+      margin: 8px 0; }
+    .premium article article {
+      display: inline-block;
+      position: relative;
+      left: 50px;
+      margin: 0 0 20px 10px; }
+      .premium article article h3 {
+        font-size: 10px;
+        font-weight: 400;
+        color: black;
+        margin: 5px 0 10px 0; }
+      .premium article article p {
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 2;
+        color: grey;
+        margin: 0;
+        line-height: 1.8;
+        width: 210px; }
+
+/* GALERIAS */
+.galerias {
+  background: gainsboro;
+  padding: 60px 0; }
+  .galerias div h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    text-align: center; }
+  .galerias div p {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 2;
+    color: grey;
+    margin: 0;
+    text-align: center;
+    margin: -5px 0 30px 0; }
+  .galerias div div .seccion {
+    padding: 0 20px 10px; }
+    .galerias div div .seccion .galeimg {
+      background: black;
+      width: 170px;
+      height: 250px;
+      padding: 0; }
+      .galerias div div .seccion .galeimg a {
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 2;
+        color: grey;
+        margin: 0;
+        padding: 4px 8px;
+        border-radius: 100px;
+        color: white;
+        position: relative;
+        top: 215px;
+        left: 18px; }
+      .galerias div div .seccion .galeimg .icono1 {
+        background: blue; }
+      .galerias div div .seccion .galeimg .icono2 {
+        background: red; }
+      .galerias div div .seccion .galeimg .icono3 {
+        background: green; }
+    .galerias div div .seccion .galetext {
+      background: white;
+      height: 250px;
+      padding: 0 20px; }
+      .galerias div div .seccion .galetext span {
+        font-size: 45px;
+        position: absolute;
+        left: -15px;
+        color: white; }
+      .galerias div div .seccion .galetext h3 {
+        font-size: 10px;
+        font-weight: 400;
+        color: black;
+        margin: 0;
+        padding: 25px 0 0; }
+      .galerias div div .seccion .galetext .subti {
+        font-size: 6px;
+        font-weight: 400;
+        color: grey;
+        margin: 4px 0 0; }
+      .galerias div div .seccion .galetext p {
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 2;
+        color: grey;
+        margin: 0;
+        text-align: left;
+        margin-top: 12px; }
+
+/* COLORFUL */
+.colorful {
+  text-align: center;
+  padding: 50px 10px 50px 10px; }
+  .colorful div h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    text-align: center; }
+  .colorful div p {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 2;
+    color: grey;
+    margin: 0;
+    text-align: center;
+    margin: -5px 0 30px 0; }
+  .colorful div div {
+    margin: 0 50px; }
+    .colorful div div article {
+      border: 1px solid gainsboro;
+      padding: 0;
+      width: 180px;
+      margin: 5px;
+      border-radius: 10px; }
+      .colorful div div article header {
+        height: 150px;
+        border-radius: 10px 10px 0 0; }
+        .colorful div div article header h3 {
+          font-size: 10px;
+          font-weight: 400;
+          color: black;
+          color: white;
+          margin: 0;
+          padding: 20px 0 5px 0; }
+        .colorful div div article header p {
+          font-size: 35px;
+          font-weight: 400;
+          color: white;
+          margin-bottom: 10px; }
+          .colorful div div article header p sup {
+            font-size: 15px;
+            font-weight: 400;
+            top: -12px;
+            color: white; }
+          .colorful div div article header p sub {
+            font-size: 7px;
+            font-weight: 400;
+            color: white; }
+        .colorful div div article header a {
+          background: white;
+          font-size: 8px;
+          text-decoration: none;
+          padding: 9px 40px;
+          border-radius: 5px; }
+      .colorful div div article h3 {
+        font-size: 10px;
+        font-weight: 400;
+        color: black; }
+      .colorful div div article .lista {
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 2;
+        color: grey;
+        margin: 0;
+        line-height: 3;
+        padding: 5px 0 22px; }
+    .colorful div div .precios1 {
+      margin-top: 27px; }
+      .colorful div div .precios1 header {
+        background: lime; }
+        .colorful div div .precios1 header a {
+          color: lime; }
+    .colorful div div .precios2 .most {
+      color: cyan;
+      padding: 3px 0 2px;
+      font-size: 10px;
+      margin: 0; }
+    .colorful div div .precios2 header {
+      background: cyan;
+      border-radius: 0; }
+      .colorful div div .precios2 header a {
+        color: cyan; }
+    .colorful div div .precios3 {
+      margin-top: 27px; }
+      .colorful div div .precios3 header {
+        background: magenta; }
+        .colorful div div .precios3 header a {
+          color: magenta; }
+
+/* FOOTER */
+.redes {
+  background: #161616;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0 0; }
+  .redes div div article ul {
+    margin-bottom: 5px; }
+    .redes div div article ul li {
+      list-style: none;
+      display: inline-block;
+      margin: 2px;
+      text-align: center; }
+      .redes div div article ul li a {
+        font-size: 6px;
+        color: gray;
+        text-decoration: none; }
+        .redes div div article ul li a span {
+          border-radius: 50%;
+          display: block;
+          width: 32px;
+          height: 32px;
+          background: #242424;
+          font-size: 16px;
+          padding-top: 6px; }
+  .redes div div article img {
+    width: 50px;
+    padding-top: 11px; }
+
+.footer {
+  background: #101010;
+  padding: 30px 0; }
+  .footer div {
+    padding: 0; }
+    .footer div div {
+      margin: 0; }
+      .footer div div article {
+        width: 23%;
+        padding: 0;
+        margin: 7px; }
+        .footer div div article h3 {
+          font-size: 10px;
+          font-weight: 400;
+          color: black;
+          color: white; }
+      .footer div div .footer1 p {
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 2;
+        color: grey;
+        margin: 0; }
+      .footer div div .footer1 ul li {
+        color: #242424;
+        font-size: 15px;
+        list-style: none; }
+      .footer div div .footer1 ul p {
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 2;
+        color: grey;
+        margin: 0;
+        line-height: 1.5; }
+      .footer div div .footer2 {
+        padding-right: 0; }
+        .footer div div .footer2 div ul {
+          padding-top: 6px;
+          padding-left: 0; }
+          .footer div div .footer2 div ul li {
+            list-style: none; }
+            .footer div div .footer2 div ul li a {
+              text-decoration: none;
+              font-size: 8px;
+              font-weight: 400;
+              line-height: 2;
+              color: grey;
+              margin: 0;
+              line-height: 3; }
+              .footer div div .footer2 div ul li a span {
+                color: blue; }
+        .footer div div .footer2 div .lista1 {
+          padding-right: 0; }
+        .footer div div .footer2 div .lista2 {
+          padding-left: 0; }
+      .footer div div .footer3 div {
+        padding-left: 0; }
+        .footer div div .footer3 div img {
+          padding: 0;
+          margin: 2px;
+          width: 35px; }
+      .footer div div .footer3 .primero {
+        margin-top: 24px; }
+      .footer div div .footer3 a {
+        position: relative;
+        top: 5px;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 2;
+        color: grey;
+        margin: 0;
+        text-decoration: none; }
+        .footer div div .footer3 a span {
+          color: blue; }
+      .footer div div .footer4 {
+        margin-left: 7px; }
+        .footer div div .footer4 form div input {
+          margin: 0;
+          height: 20px;
+          border-radius: 0;
+          font-size: 8px;
+          font-weight: 400;
+          line-height: 2;
+          color: grey;
+          margin: 0; }
+        .footer div div .footer4 form div span button {
+          margin: 0;
+          height: 20px;
+          border-radius: 0;
+          background: blue;
+          border: 0;
+          padding: 0 10px; }
+          .footer div div .footer4 form div span button span {
+            color: white;
+            font-size: 10px; }
+        .footer div div .footer4 p {
+          font-size: 8px;
+          font-weight: 400;
+          line-height: 2;
+          color: grey;
+          margin: 0;
+          margin: 20px 0 8px; }
+        .footer div div .footer4 ul {
+          margin: 0;
+          border-top: 1px solid #242424; }
+          .footer div div .footer4 ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 5px;
+            text-decoration: none;
+            font-size: 15px; }
+            .footer div div .footer4 ul li a {
+              text-decoration: none;
+              color: grey; }
+
+.links {
+  background: #161616;
+  text-transform: uppercase;
+  padding: 10px 0 0; }
+  .links div ul {
+    display: inline-block; }
+    .links div ul li {
+      list-style: none;
+      display: inline-block;
+      font-size: 8px;
+      font-weight: 400;
+      line-height: 2;
+      color: grey;
+      margin: 0; }
+      .links div ul li a {
+        text-decoration: none; }
+  .links div p {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 2;
+    color: grey;
+    margin: 0;
+    float: right;
+    padding: 0;
+    line-height: 0;
+    padding-top: 10px; }
+
+/* HEADER about */
+.header-about {
+  background-image: url("../assets/about/background.jpg");
+  background-size: 100%;
+  width: 100vw; }
+  .header-about div div {
+    max-width: 300px;
+    padding: 0;
+    margin: auto; }
+    .header-about div div h1 {
+      text-align: center;
+      color: white;
+      font-weight: 400;
+      font-size: 35px;
+      margin: 25px 0 0; }
+    .header-about div div h2 {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.5);
+      font-weight: 700;
+      font-size: 20px;
+      text-transform: uppercase;
+      top: -20px;
+      margin: 10px 0 45px 0; }
+
+/* TRITEXTO about */
+.tritexto {
+  text-align: center;
+  padding: 30px 0 40px 0px; }
+  .tritexto div div article {
+    text-align: left; }
+    .tritexto div div article h3 {
+      font-size: 10px;
+      font-weight: 400;
+      color: black;
+      display: inline-block;
+      margin-left: 3px; }
+    .tritexto div div article span {
+      display: inline-block;
+      font-size: 18px;
+      color: blue;
+      position: relative;
+      top: 2px; }
+    .tritexto div div article p {
+      font-size: 8px;
+      font-weight: 400;
+      line-height: 2;
+      color: grey;
+      margin: 0;
+      line-height: 1.8; }
+
+/* IMAGENES about */
+.imagenes {
+  padding: 50px 10px 50px 10px; }
+  .imagenes div div article .imgabout {
+    width: 100%; }
+  .imagenes div div .textosimg h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    margin: 20px 0; }
+  .imagenes div div .textosimg p {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 2;
+    color: grey;
+    margin: 0;
+    margin: 30px 0; }
+  .imagenes div div .textosimg a {
+    background: blue;
+    font-size: 8px;
+    text-decoration: none;
+    color: white;
+    padding: 9px 20px; }
+
+/* CARROUSEL about */
+.carrousel {
+  background: black;
+  text-align: center;
+  padding: 70px 0 70px 0px; }
+  .carrousel div div .col-md-10 {
+    padding-bottom: 50px; }
+  .carrousel div div article a {
+    background: black;
+    color: white;
+    border-radius: 50%;
+    margin: 0;
+    border: 1px solid white;
+    padding: 7px 11px;
+    text-decoration: none;
+    position: relative;
+    top: 40px; }
+  .carrousel div div article p {
+    font-size: 9px;
+    color: white;
+    line-height: 2.5;
+    width: 80%;
+    margin: auto; }
+  .carrousel div div article span {
+    font-size: 8px;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    top: 10px; }
+  .carrousel div img {
+    width: 100%; }
+
+/* ROSA about */
+.rosa {
+  padding-top: 20px;
+  background: violet;
+  text-align: center;
+  height: 55px; }
+  .rosa h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    padding: 0; }
+  .rosa span {
+    color: violet;
+    font-size: 30px;
+    position: relative; }
+
+/* COLORFUL about */
+.colorfulabout {
+  background: gainsboro;
+  text-align: center;
+  padding: 50px 10px 50px 10px; }
+  .colorfulabout div div article {
+    background: white;
+    padding: 0;
+    width: 23%;
+    margin: 1%; }
+    .colorfulabout div div article header {
+      height: 100px;
+      background: black; }
+    .colorfulabout div div article h3 {
+      font-size: 10px;
+      font-weight: 400;
+      color: black;
+      padding-left: 15px;
+      text-align: left; }
+    .colorfulabout div div article .lista {
+      font-size: 8px;
+      font-weight: 400;
+      line-height: 2;
+      color: grey;
+      margin: 0;
+      line-height: 2;
+      padding: 5px 15px 22px;
+      text-align: left; }
+
+/* FORMULARIO */
+.contacto .contenedor form {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 15px;
+  padding: 10px 0 20px 0; }
+  .contacto .contenedor form span {
+    float: right;
+    position: relative;
+    right: 12px;
+    bottom: 21px;
+    color: #e5e5e5; }
+  .contacto .contenedor form .twms {
+    float: right;
+    position: relative;
+    right: 12px;
+    bottom: 115px;
+    color: #e5e5e5; }
+
+.contacto .contenedor form input {
+  width: 100%;
+  -webkit-appearance: none;
+  border-style: none;
+  border: 1px solid #e5e5e5;
+  padding: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  margin: -6px 0; }
+
+.mapa {
+  margin-top: 10px;
+  width: 330px;
+  height: 290px; }
+
+.contacto .contenedor form .mensaje {
+  width: 100%;
+  -webkit-appearance: none;
+  border-style: none;
+  border: 1px solid #e5e5e5;
+  padding: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  margin: -6px 0;
+  border-bottom: 1.5px solid #e5e5e5;
+  padding-bottom: 80px; }
+
+.contacto .contenedor form .send {
+  width: 100%;
+  background: #18bc9c;
+  color: white;
+  margin-right: 500px;
+  margin-top: 10px; }
+
+/*# sourceMappingURL=style.css.map */
